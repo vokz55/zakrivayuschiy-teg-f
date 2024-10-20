@@ -1,13 +1,15 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
     --main-font: 'inter', sans-serif;
-    --accent-font: 'PressStart2P', monospace;
+    --accent-font: 'PressStart2P', fantasy;
     --main-font-weight: 465;
     --accent-font-weight: 785;
     --bg-color: #000;
     --main-color: #00cc14;
     --button-text-color: var(--main-color);
     --sparks-color: #FF0000;
+    --filter-grayscale: grayscale(0);
+    --filter-invert: invert(0);
     --bg-image: 
     repeating-linear-gradient(90deg, #000, #000 2px, transparent 2px, transparent 4px),
     repeating-linear-gradient(#000, #000 2px, transparent 2px, transparent 4px),
